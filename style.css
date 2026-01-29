@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  background-color: #f9eef6;
+  /* background-color: #fff9df; */
+  color: #1e2022;
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  /* background-color: #bcdbeb; */
+  padding-top: 75px;
+  padding-bottom: 10px;
+}
+
+summary {
+  font-size: 30px;
+}
+
+li {
+  padding-left: 40px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1e2022;
+}
+
+.nav_link {
+  padding: 20px 15px;
+  font-size: 25px;
+  align-items: center;
+}
+
+#top_main_nav_block {
+  height: 75px;
+  weight: 100%;
+  background-color: #fcfde0;
+  border-bottom: 2px solid silver;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+#hero-section {
+  background: url('icons/hero_picture2.jpg') no-repeat center top;
+  height: 450px;
+  weight: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 20px;
+}
+
+#aims2026 {
+  font-size: 25px;
+  /* background-color: #deebf2; */
+  padding: 50px 0 20px 20px;
+  margin-bottom: 50px;
+  color: #1e2022;
+  text-align: center;
+}
+
+#aims2026_link {
+  font-size: 30px;
+  text-decoration: none;
+  color: #1e2022;
+}
+
+#global_aims_link {
+  font-size: 30px;
+  text-decoration: none;
+  color: #1e2022;
+}
+
+#nav_ul {
+  margin-left: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#global_aims {
+  margin-left: 20px;
+  font-size: 20px;
+  /* background-color: #deebf2; */
+  margin: 50px 250px 50px 250px;
+  padding: 20px 0 20px 0;
+  margin-bottom: 50px;
+  color: #1e2022;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+#footer {
+  weight: 100%;
+  height: 200px;
+  background-color: #2d2c2c;
+  text-align: center;
+  color: #d9d9d9;
+  padding-top: 30px;
+}
